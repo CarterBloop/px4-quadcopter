@@ -44,6 +44,11 @@ title: PX4 Quadcopter
     grid-template-columns: 1fr;
     max-width: 450px;
   }
+
+  @media screen and (min-width: 961px) {
+  .wrapper { width: min(1200px, 100%); }
+  .wrapper > section { width: calc(100% - 300px); }
+  }
 }
 </style>
 
@@ -55,7 +60,7 @@ title: PX4 Quadcopter
   <figure>
     <div class="square-media">
       <video controls playsinline preload="metadata" aria-label="Flight footage">
-        <source src="assets/videos/flight.mp4" type="video/mp4">
+        <source src="assets/video/flight.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
       </video>
     </div>
