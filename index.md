@@ -44,11 +44,6 @@ title: PX4 Quadcopter
     grid-template-columns: 1fr;
     max-width: 450px;
   }
-
-  @media screen and (min-width: 961px) {
-  .wrapper { width: min(1200px, 100%); }
-  .wrapper > section { width: calc(100% - 300px); }
-  }
 }
 </style>
 
